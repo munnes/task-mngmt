@@ -5,9 +5,77 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align:center;
+  background-color:#f7e47c
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#myForm{
+    text-align:left;
+    margin-left:20%;
+    margin-right:20%;
+    border:outset;
+     background-color:rgb(240, 240, 240);
+     font-weight:400;
+   
+}
+.lbl{
+    margin-left: 10px;
+    font-weight:500;
+}
+
+.inp::placeholder { 
+  color: lightgray;
+  font-style:italic;
+}
+#viewTable{
+    margin-top:10px;
+    max-width:90%;
+    display:inline-block;
+}
+
+#noCol{
+    width:5%;
+}
+#titlCol{
+width:15%;
+}
+#descCol{
+width:30%;
+max-width:150px;
+}
+#DDateCol{
+    width:10%
+}
+#edtCol{
+    width:10%
+}
+#delCol{
+  width:10%
+}
+
+
+table{
+    table-layout:fixed;
+}
+td{
+    word-wrap:break-word;
+    background-color:rgb(240, 240, 240);
+}
+th{
+    background-color:cornflowerblue;
+    color:white;
+}
+#head{
+    color:darkblue;
+    margin-top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#empty{
+    color:darkslategray;
+    margin-top:10px;
+    font-style:italic;
 }
