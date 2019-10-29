@@ -65,7 +65,7 @@ class MyTask  extends Component {
             if (this.props.task.length>0)
             {
                 view= <div id="viewTable">
-        <table id="myTab" className="table table-bordered table-hover ">
+        <table id="myTab" className="table table-bordered table-hover table-responsive ">
 
             <tr>
                 <th id="noCol">Row#</th>
