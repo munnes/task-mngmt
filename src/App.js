@@ -1,13 +1,11 @@
 import React,{Component} from 'react';
-import MyTask from "./MyTask"
-
+import MyTask from "./components/MyTask";
 
 class App  extends Component {
     render(){
   return (
-    <div className="App">
-     
-      <MyTask />
+    <div className="App"> 
+      <MyTask/> 
     </div>
   );
 }

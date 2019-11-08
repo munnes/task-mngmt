@@ -18,8 +18,8 @@ code {
     margin-left:20%;
     margin-right:20%;
     border:outset;
-     background-color:rgb(240, 240, 240);
-     font-weight:400;
+    background-color:rgb(240, 240, 240);
+    font-weight:400;
    
 }
 .lbl{
@@ -48,7 +48,8 @@ width:30%;
 max-width:150px;
 }
 #DDateCol{
-    width:10%
+    width:10%;
+ 
 }
 #edtCol{
     width:10%

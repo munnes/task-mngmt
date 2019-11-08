@@ -10,9 +10,9 @@ import updtTask from './actions/updtTask';
             case 'DELETE':
                 return [...state].filter((task)=>task.id !== action.id);
             case 'EDIT':
-                return  [...state].map((task)=>task.id==action.id?{...task,isEdit:true}:task);
+                return  [...state].map((task)=>task.id===action.id?{...task,isEdit:true}:task);
             case 'UPDATE':
-                return [...state].map((task)=>task.id==action.id?{...task,isEdit:false,
+                return [...state].map((task)=>task.id===action.id?{...task,isEdit:false,
                 title:action.data.title,
                 description:action.data.description,
                 theDate:action.data.theDate}:task);
